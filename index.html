@@ -2,15 +2,16 @@
 <html lang="fr" data-title-fr="Ardane — widgets et mini-apps pour iPhone" data-title-en="Ardane — widgets and mini-apps for iPhone">
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#EBF1F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#080E14" media="(prefers-color-scheme: dark)">
 <title>Ardane — widgets et mini-apps pour iPhone</title>
 <meta name="description" content="Ardane réunit nutrition, sport, budget, planning et plus encore dans des widgets et des mini-apps que tu personnalises, sur iPhone.">
 <link rel="stylesheet" href="style.css">
 
 <main>
   <header>
-    <div class="mark" aria-hidden="true">
-      <svg viewBox="0 0 100 100"><polygon points="47.5,19.3 47.5,55.4 34,86 16,86" fill="#fff"/><polygon points="52.5,19.3 84,86 66,86 52.5,55.4" fill="#FFE0CC"/></svg>
-    </div>
+    <div class="mark" aria-hidden="true"></div>
     <div class="titles"><h1>Ardane</h1></div>
     <div class="lang" role="group" aria-label="Langue / Language">
       <button id="btn-fr" type="button" aria-pressed="true" lang="fr">Français</button>
@@ -29,7 +30,10 @@
       <a href="terms.html#fr">Conditions d'utilisation</a>
       <a href="support.html#fr">Assistance</a>
     </nav>
-    <footer>© 2026 Ardane · Québec, Canada</footer>
+    <footer>
+      <nav class="links" aria-label="Liens légaux"><a href="privacy.html#fr">Politique de confidentialité</a></nav>
+      <span>© 2026 Ardane · Québec, Canada</span>
+    </footer>
   </article>
 
   <article id="en" lang="en" hidden>
@@ -43,7 +47,10 @@
       <a href="terms.html#en">Terms of use</a>
       <a href="support.html#en">Support</a>
     </nav>
-    <footer>© 2026 Ardane · Quebec, Canada</footer>
+    <footer>
+      <nav class="links" aria-label="Legal links"><a href="privacy.html#en">Privacy policy</a></nav>
+      <span>© 2026 Ardane · Quebec, Canada</span>
+    </footer>
   </article>
 </main>
 <script src="site.js"></script>
