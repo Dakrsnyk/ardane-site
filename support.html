@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="fr" data-title-fr="Assistance Ardane" data-title-en="Ardane Support">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Assistance Ardane</title>
+<link rel="stylesheet" href="style.css">
+
+<main>
+  <header>
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><polygon points="47.5,19.3 47.5,55.4 34,86 16,86" fill="#fff"/><polygon points="52.5,19.3 84,86 66,86 52.5,55.4" fill="#FFE0CC"/></svg>
+    </div>
+    <div class="titles">
+      <h1>Ardane</h1>
+      <p class="sub" id="sub">Assistance</p>
+    </div>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button id="btn-fr" type="button" aria-pressed="true" lang="fr">Français</button>
+      <button id="btn-en" type="button" aria-pressed="false" lang="en">English</button>
+    </div>
+  </header>
+
+  <article id="fr" lang="fr">
+    <section>
+      <h2>Nous écrire</h2>
+      <p>Une question, un problème, une demande liée à tes données personnelles ? Écris-nous : nous répondons dans un délai de 30 jours.</p>
+      <p><a class="email" href="mailto:support.ardane@gmail.com">support.ardane@gmail.com</a></p>
+    </section>
+    <section>
+      <h2>Questions fréquentes</h2>
+      <ul class="list">
+        <li><b>Comment annuler mon abonnement ?</b><span>Dans les réglages de ton iPhone : Réglages › ton nom › Abonnements › Ardane Premium › Annuler. Fais-le au moins 24 heures avant la fin de la période en cours.</span></li>
+        <li><b>Comment restaurer mes achats ?</b><span>Dans l'app, ouvre l'écran Premium et touche « Restaurer mes achats ».</span></li>
+        <li><b>Un remboursement ?</b><span>Les paiements sont traités par Apple. Demande un remboursement sur reportaproblem.apple.com.</span></li>
+        <li><b>Où sont mes données ?</b><span>Sur ton appareil. Voir la <a href="privacy.html#fr">politique de confidentialité</a>.</span></li>
+      </ul>
+    </section>
+    <footer>© 2026 Ardane · Québec, Canada</footer>
+  </article>
+
+  <article id="en" lang="en" hidden>
+    <section>
+      <h2>Contact us</h2>
+      <p>A question, a problem, a request about your personal data? Write to us: we answer within 30 days.</p>
+      <p><a class="email" href="mailto:support.ardane@gmail.com">support.ardane@gmail.com</a></p>
+    </section>
+    <section>
+      <h2>Frequently asked questions</h2>
+      <ul class="list">
+        <li><b>How do I cancel my subscription?</b><span>In your iPhone settings: Settings › your name › Subscriptions › Ardane Premium › Cancel. Do it at least 24 hours before the end of the current period.</span></li>
+        <li><b>How do I restore my purchases?</b><span>In the app, open the Premium screen and tap "Restore purchases".</span></li>
+        <li><b>A refund?</b><span>Payments are handled by Apple. Request a refund at reportaproblem.apple.com.</span></li>
+        <li><b>Where is my data?</b><span>On your device. See the <a href="privacy.html#en">privacy policy</a>.</span></li>
+      </ul>
+    </section>
+    <footer>© 2026 Ardane · Quebec, Canada</footer>
+  </article>
+</main>
+<script src="site.js"></script>
+<script>
+(function(){var s=document.getElementById("sub");function f(){s.textContent=document.documentElement.lang==="en"?"Support":"Assistance";}f();new MutationObserver(f).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});})();
+</script>

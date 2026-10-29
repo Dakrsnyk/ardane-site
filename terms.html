@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="fr" data-title-fr="Conditions d'utilisation d'Ardane" data-title-en="Ardane Terms of Use">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Conditions d'utilisation d'Ardane</title>
+<link rel="stylesheet" href="style.css">
+
+<main>
+  <header>
+    <div class="mark" aria-hidden="true">
+      <svg viewBox="0 0 100 100"><polygon points="47.5,19.3 47.5,55.4 34,86 16,86" fill="#fff"/><polygon points="52.5,19.3 84,86 66,86 52.5,55.4" fill="#FFE0CC"/></svg>
+    </div>
+    <div class="titles">
+      <h1>Ardane</h1>
+      <p class="sub" id="sub">Conditions d'utilisation</p>
+    </div>
+    <div class="lang" role="group" aria-label="Langue / Language">
+      <button id="btn-fr" type="button" aria-pressed="true" lang="fr">Français</button>
+      <button id="btn-en" type="button" aria-pressed="false" lang="en">English</button>
+    </div>
+  </header>
+
+  <article id="fr" lang="fr">
+    <section>
+      <h2>Contrat de licence</h2>
+      <p>Ardane est distribuée par l'App Store d'Apple. Son utilisation est régie par le <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">contrat de licence d'utilisateur final standard d'Apple (EULA)</a>.</p>
+    </section>
+    <section>
+      <h2>Abonnements et achat à vie</h2>
+      <ul class="list">
+        <li><b>Premium mensuel ou annuel</b><span>Essai gratuit de 7 jours, puis renouvellement automatique au prix affiché dans l'App Store, chaque mois ou chaque année. Rien n'est débité pendant l'essai. L'essai gratuit ne vaut qu'une fois par compte Apple.</span></li>
+        <li><b>Annulation</b><span>Annule au moins 24 heures avant la fin de la période en cours, dans les réglages de ton compte App Store (Réglages › ton nom › Abonnements). Le paiement est débité sur ton compte Apple.</span></li>
+        <li><b>Achat à vie</b><span>Paiement unique, sans renouvellement.</span></li>
+        <li><b>Restauration</b><span>Tes achats se restaurent depuis l'écran Premium de l'app (Restaurer mes achats).</span></li>
+        <li><b>Facturation et remboursements</b><span>Gérés par Apple : reportaproblem.apple.com.</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>À titre informatif</h2>
+      <p>Les valeurs nutritionnelles et sportives sont indicatives et ne constituent pas un avis médical. Les cours de cryptomonnaies, les données d'entreprises et les outils de budget sont fournis à titre informatif et ne constituent pas un conseil financier.</p>
+    </section>
+    <section>
+      <h2>Confidentialité et assistance</h2>
+      <p>Voir la <a href="privacy.html#fr">politique de confidentialité</a>. Pour toute question : <a href="support.html#fr">assistance</a>.</p>
+    </section>
+    <footer>© 2026 Ardane · Québec, Canada</footer>
+  </article>
+
+  <article id="en" lang="en" hidden>
+    <section>
+      <h2>License agreement</h2>
+      <p>Ardane is distributed through Apple's App Store. Its use is governed by <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/">Apple's standard Licensed Application End User License Agreement (EULA)</a>.</p>
+    </section>
+    <section>
+      <h2>Subscriptions and lifetime purchase</h2>
+      <ul class="list">
+        <li><b>Premium monthly or yearly</b><span>7-day free trial, then automatic renewal at the price shown in the App Store, every month or every year. Nothing is charged during the trial. The free trial applies once per Apple account.</span></li>
+        <li><b>Cancellation</b><span>Cancel at least 24 hours before the end of the current period, in your App Store account settings (Settings › your name › Subscriptions). Payment is charged to your Apple account.</span></li>
+        <li><b>Lifetime purchase</b><span>One-time payment, no renewal.</span></li>
+        <li><b>Restoring</b><span>Restore your purchases from the app's Premium screen (Restore purchases).</span></li>
+        <li><b>Billing and refunds</b><span>Handled by Apple: reportaproblem.apple.com.</span></li>
+      </ul>
+    </section>
+    <section>
+      <h2>For information only</h2>
+      <p>Nutrition and fitness values are indicative and are not medical advice. Cryptocurrency prices, company data and budget tools are provided for information only and are not financial advice.</p>
+    </section>
+    <section>
+      <h2>Privacy and support</h2>
+      <p>See the <a href="privacy.html#en">privacy policy</a>. For any question: <a href="support.html#en">support</a>.</p>
+    </section>
+    <footer>© 2026 Ardane · Quebec, Canada</footer>
+  </article>
+</main>
+<script src="site.js"></script>
+<script>
+(function(){var s=document.getElementById("sub");function f(){s.textContent=document.documentElement.lang==="en"?"Terms of use":"Conditions d'utilisation";}f();new MutationObserver(f).observe(document.documentElement,{attributes:true,attributeFilter:["lang"]});})();
+</script>
