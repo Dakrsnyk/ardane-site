@@ -14,7 +14,7 @@ html{-webkit-text-size-adjust:100%}
 body{background:var(--bg);color:var(--ink);font-family:var(--body);font-size:17px;line-height:1.6;margin:0;padding:32px 16px 56px}
 main{max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
 header{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
-/* Logo variante D (bleu et cyan) : le symbole vit dans mark.svg (un seul endroit à remplacer). */
+/* Logo de l'app (turquoise vers bleu roi, 2026-11-05) : le symbole vit dans mark.svg (un seul endroit à remplacer). */
 .mark{width:48px;height:48px;flex:none;border-radius:11px;background:url(mark.svg) center/cover no-repeat}
 .titles{flex:1;min-width:0}
 h1{font-family:var(--display);font-size:30px;line-height:1.15;margin:0;text-wrap:balance;letter-spacing:-.01em}
